@@ -51,7 +51,16 @@ let age: number = 30;
 let isActive: boolean = true;
 let numbers: number[] = [1, 2, 3];
 
-5. Interfaces
+5. Interfaces: Interfaces in TypeScript are like contracts or blueprints that define the structure of an object. They're powerful tools for type-checking and code organization.
+
+Required Properties:
+name and age are required properties
+If you create an object of type User, it must have these properties with their specified types
+
+Optional Properties:
+The ? symbol makes a property optional (like email in the example)
+You can include or omit optional properties when creating objects
+
 
 interface User {
   name: string;
